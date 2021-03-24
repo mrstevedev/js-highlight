@@ -105,8 +105,8 @@
         padding: 2rem;
     }
     .js__highlight--3x3-grid {
-        display: initial;
-        margin: initial;
+        grid-template-columns: repeat( auto-fit, minmax(70px, 1fr) );
+        margin: 1rem 0;
     }
 
     .js__highlight--left {
