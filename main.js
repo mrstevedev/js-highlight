@@ -29,6 +29,7 @@ function checkNum(val) {
 
 clearBtn.addEventListener("click", () => {
   numInput.value = "";
+  errorContainer.style.display = "none";
 
   numBox.forEach((node, i) => {
     node.classList.remove("marker-highlight");
