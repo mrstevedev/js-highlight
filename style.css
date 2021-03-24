@@ -101,6 +101,9 @@
 }
 
 @media(max-width: 545px) {
+    .container {
+        padding: 2rem;
+    }
     .js__highlight--3x3-grid {
         display: initial;
         margin: initial;
