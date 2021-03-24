@@ -50,8 +50,8 @@
 
 .js__highlight--3x3-grid {
     display: grid;
-    grid-template-rows: 50px 50px 50px;
-    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 80px 80px 80px;
+    grid-template-columns: 80px 80px 80px;
     margin: 0 5rem;
 }
 
@@ -73,10 +73,6 @@
     margin: 5px 0; 
 }
 
-.highlight {
-    background: rgb(243, 114, 114);
-}
-
 .marker-highlight {
     position: relative;
 }
@@ -90,7 +86,7 @@
     z-index:-1;
     filter:url(#marker-shape);
     left:-0.25em;
-    top:0.1em;
+    top: 1em;
     padding:0 0.25em;
 }
 
@@ -108,5 +104,17 @@
     .js__highlight--3x3-grid {
         display: initial;
         margin: initial;
+    }
+
+    .js__highlight--left {
+        width: 100%;
+    }
+
+    .js__highlight--selectNumber input {
+        width: 100%;
+    }
+
+    .marker-highlight:before {
+        top: 1.4em;
     }
 }
