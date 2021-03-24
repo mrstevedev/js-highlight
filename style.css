@@ -7,16 +7,6 @@
     padding: 3rem;
 }
 
-@media (min-width: 762px) {
-    .js__highlight--container {
-        width: 600px;
-        height: 500px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
 .js__highlight--left {
     width: 225px;
 }
@@ -102,4 +92,21 @@
     left:-0.25em;
     top:0.1em;
     padding:0 0.25em;
+}
+
+@media (min-width: 768px) {
+    .js__highlight--container {
+        width: 600px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 545px) {
+    .js__highlight--3x3-grid {
+        display: initial;
+        margin: initial;
+    }
 }
