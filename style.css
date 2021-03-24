@@ -90,7 +90,7 @@
     padding:0 0.25em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 545px) {
     .js__highlight--container {
         width: 600px;
         height: 500px;
